@@ -1,0 +1,30 @@
+Criminal Face Detection System
+
+This project is a simple yet powerful AI-based application that can detect and identify a person’s face from an image and check whether they exist in a criminal database.
+
+The main idea behind this project is to simulate a smart surveillance system using modern technologies like Java, JavaScript, and Python.
+
+
+
+ What This Project Does
+	•	Allows users to upload an image
+	•	Detects faces present in the image
+	•	Matches the detected face with stored criminal data
+	•	Displays the result with the person’s name and confidence level
+
+
+
+ How It Works
+
+When a user uploads an image:
+	1.	The frontend sends the image to the Java backend
+	2.	The backend forwards it to a Python-based AI service
+	3.	The AI model detects and recognizes the face
+	4.	The result is sent back and shown on the screen
+
+
+ Technologies Used
+	•	Frontend: JavaScript / React
+	•	Backend: Java (Spring Boot)
+	•	AI Processing: Python (OpenCV, face_recognition)
+	•	Database: MySQL
